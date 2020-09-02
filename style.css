@@ -95,10 +95,9 @@
 
     @media all and (max-width: 500px) {
     .nav {
-        flex-direction: column;
+        display: none;
     } 
 }
-    </style>
 
 body {
     font-family: arial; 
@@ -111,12 +110,12 @@ body {
 }
 
 .nav__link {
-    color: #fff;
+    color: rgb(165, 223, 220);
     padding: 15px 10px;
     text-decoration: none;
     text-align: center;
 } 
 
 .nav__link:hover { 
-    background: #5c8db7; 
+    background: #6dbd59; 
 }
