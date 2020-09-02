@@ -1,7 +1,8 @@
 @media (min-width: 320px) {
     .header__title {
-        font-size: 60px;
+        font-size: 48px;
         text-transform: uppercase;
+        text-align: center;
     }
 
     .header__subtitle {
@@ -9,49 +10,49 @@
     }
 
     .header__description {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
 @media (min-width: 480px) {
     .header__title {
-        font-size: 
+        font-size: 52px;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 32px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 18px;
     }
 }
 
 @media (min-width: 600px) {
     .header__title {
-        font-size: 
+        font-size: 60px;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 50px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 20px;
     }
 }
 
 @media (min-width: 768px) {
     .header__title {
-        font-size: 
+        font-size: 40px;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 38px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 16px;
     }
 }
 
