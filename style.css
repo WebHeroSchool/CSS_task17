@@ -106,7 +106,7 @@ body {
 .nav {
     display: flex;
     justify-content: flex-end; 
-    background: #41ce34;
+    background: #d2dcd1;
 }
 
 .nav__link {
@@ -117,5 +117,5 @@ body {
 } 
 
 .nav__link:hover { 
-    background: #6dbd59; 
+    background: #81e967; 
 }
