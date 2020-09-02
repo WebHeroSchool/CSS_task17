@@ -58,28 +58,29 @@
 
 @media (min-width: 1024px) {
     .header__title {
-        font-size: 
+        font-size: 65px;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 50px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 22px;
     }
 }
 
 @media (min-width: 1280px) {
     .header__title {
-        font-size: 
+        font-size: 70px;
+        padding-top: 20px;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 60px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 18px;
     }
 }
