@@ -1,14 +1,15 @@
 @media (min-width: 320px) {
     .header__title {
-        font-size: 32px
+        font-size: 60px;
+        text-transform: uppercase;
     }
 
     .header__subtitle {
-        font-size: 
+        font-size: 30px;
     }
 
     .header__description {
-        font-size: 
+        font-size: 14px;
     }
 }
 
