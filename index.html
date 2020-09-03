@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CSS MODULE: Task 17</title>
-        <meta content="charset-utf8">
-        <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header class="header">
-            <h1 class="header__title">
-                Adaptive layout exercise
-            </h1>
-            <h3 class="header__subtitle">
-                This exercise shows how styles adapt to various screen sizes
-            </h3>
-            <p class="header__description">
-                You need to use "@media" properties to adjust styles for each screen type.
-            </p>
-        </header>
-        <div class="nav">
-            <a class="nav__link" href="#">Главная</a>
-            <a class="nav__link" href="#">О нас</a>
-            <a class="nav__link" href="#">Продукты</a>
-            <a class="nav__link" href="#">Контакты</a>
-            </div>
-    </body>
-</html>
+  <head>
+    <title>CSS MODULE: Task 17</title>
+    <meta content="charset-utf8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/baacbf8140.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav">
+        <a class="active" href="#">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#stufd">Продукты</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#icon" class="icon">
+         <i class="fa fa-bars"></i></a>
+      </div>
+      <h1 class="header__title">
+        Adaptive layout exercise
+      </h1>
+      <h3 class="header__subtitle">
+        This exercise shows how styles adapt to various screen sizes
+      </h3>
+      <p class="header__description">
+        You need to use "@media" properties to adjust styles for each screen type.
+      </p>
+    </header>
+  </body>
