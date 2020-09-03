@@ -1,105 +1,133 @@
-@media (min-width: 320px) {
-    .header__title {
-        font-size: 48px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .header__subtitle {
-        font-size: 30px;
-    }
-
-    .header__description {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 480px) {
-    .header__title {
-        font-size: 52px;
-    }
-
-    .header__subtitle {
-        font-size: 32px;
-    }
-
-    .header__description {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 600px) {
-    .header__title {
-        font-size: 60px;
-    }
-
-    .header__subtitle {
-        font-size: 50px;
-    }
-
-    .header__description {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .header__title {
-        font-size: 40px;
-    }
-
-    .header__subtitle {
-        font-size: 38px;
-    }
-
-    .header__description {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .header__title {
-        font-size: 65px;
-    }
-
-    .header__subtitle {
-        font-size: 50px;
-    }
-
-    .header__description {
-        font-size: 22px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .header__title {
-        font-size: 70px;
-        padding-top: 20px;
-    }
-
-    .header__subtitle {
-        font-size: 60px;
-    }
-
-    .header__description {
-        font-size: 18px;
-    }
-}
-
-body {
-    font-family:arial; 
-}
-
 .nav {
-    display: flex;
-    justify-content: flex-end; 
-    background: #41ce34;
-}
-.nav__link {
-    color:#fff;
-    padding:15px 10px;
-    text-decoration:none;
-    text-align:center;
-}
-.nav__link:hover { 
-    background:#5c8db7; 
-}
+    overflow: hidden;
+    background-color: #1f2227;
+  }
+  
+  .nav a {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: blue;
+  }
+  
+  .nav a:hover {
+    background-color: #d1d1d1;
+    color: #1f2227;
+  }
+  
+  .nav .icon {
+    display: none;
+  }
+  
+  body {
+    font-family: 'Grandstander', cursive;
+    color: #1f2227;
+  }
+  
+  @media (min-width: 320px) {
+    .header__title {
+      font-size: 48px;
+      text-transform: uppercase;
+    }
+  
+    .header__subtitle {
+      font-size: 30px;
+    }
+  
+    .header__description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 480px) {
+    .header__title {
+      font-size: 52px;
+    }
+  
+    .header__subtitle {
+      font-size: 32px;
+    }
+  
+    .header__description {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .header__title {
+      font-size: 60px;
+    }
+  
+    .header__subtitle {
+      font-size: 50px;
+    }
+  
+    .header__description {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header__title {
+      font-size: 40px;
+    }
+  
+    .header__subtitle {
+      font-size: 38px;
+    }
+  
+    .header__description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .header__title {
+      font-size: 65px;
+    }
+  
+    .header__subtitle {
+      font-size: 50px;
+    }
+  
+    .header__description {
+      font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .header__title {
+      font-size: 70px;
+      padding-top: 20px;
+    }
+  
+    .header__subtitle {
+      font-size: 60px;
+    }
+  
+    .header__description {
+      font-size: 18px;
+    }
+  }
+  
+  /* cкрывает пункты меню при сжатии экрана до 600рх и меньше */
+  @media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+      display: none;
+    }
+  
+    /* показывает иконку меню справа */
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
